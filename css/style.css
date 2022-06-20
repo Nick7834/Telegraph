@@ -64,7 +64,7 @@ a {
 /* menu */
 
 .navigation {
-  margin-right: 100px;
+  margin-left: 70px;
 }
 
 .menu_two {
@@ -78,7 +78,7 @@ a {
 }
 
 .menu {
-  margin-left: 110px;
+  margin-right: 110px;
 }
 
 .button_text {
@@ -119,10 +119,6 @@ a {
 .main_body {
   font-family: Nunito;
   font-weight: 400;
-}
-
-.content_one {
-  padding: 0 0 0 110px;
 }
 
 .tex_one {
@@ -397,7 +393,7 @@ a {
 
 .section_05_container {
   display: flex;
-  justify-content: center;
+  justify-content: space-evenly;
   align-items: center;
 }
 
@@ -558,6 +554,18 @@ a {
 
   img {
     max-width: 100%;
+  }
+
+  .header_container {
+    justify-content: space-between;
+  }
+
+  .navigation {
+    margin-left: 0;
+  }
+
+  .menu {
+    margin-right: 0;
   }
 
   .main_content {
