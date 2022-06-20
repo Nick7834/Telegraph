@@ -82,6 +82,7 @@ a {
 }
 
 .button_text {
+  cursor: pointer;
   padding: 17px 21px;
   border: 0;
   width: 100%;
